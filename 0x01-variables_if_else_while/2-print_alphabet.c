@@ -4,8 +4,7 @@
 
 int main()
 {
-	char lowercase[];
-	lowercase= 'CAPITAL';
+	char lowercase [] = "CAPITAL";
 	putchar("%s in lowercase is represented as %s",
 		lowercase, tolower(lowercase));
 
