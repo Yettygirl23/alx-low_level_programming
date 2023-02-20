@@ -2,8 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Last digit chceking
+ *main - Last digit chceking
  *
+ *Description - Last digit is less than 6 and greater than 5
+ *
+ *Return: Always 0 (sucess)
  */
 
 
