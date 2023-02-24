@@ -1,14 +1,16 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- *main - a function that checks for uppercase character
- *Description - input
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isdigit - Checks for digit
+ *
+ * @c: the data to check
+ *
+ * Return: 1 (if true) 0 (if false)
  */
-int _isupper(int c)
+
+int _isdigit(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (c > 47 && c < 58)
 		return (1);
 	else
 		return (0);
