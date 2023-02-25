@@ -1,17 +1,23 @@
 #include "main.h"
 
 /**
- * _isdigit - Checks for digit
+ * more_numbers - prints numbers 0 -14 10 times
  *
- * @c: the data to check
- *
- * Return: 1 (if true) 0 (if false)
+ * Return: void
  */
 
-int _isdigit(int c)
+void more_numbers(void)
 {
-	if (c > 47 && c < 58)
-		return (1);
-	else
-		return (0);
+	int number, times;
+
+	for (times = 10; times > 0; times--)
+	{
+		for (number = 0; number < 15; number++)
+		{
+			if (number > 9)
+				_putchar(49);
+			_putchar(number % 10 + 48);
+		}
+		_putchar('\n');
+	}
 }
