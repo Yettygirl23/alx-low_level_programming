@@ -1,1 +1,1 @@
-malloc 0
+strdup
